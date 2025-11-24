@@ -274,16 +274,16 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/favicon.png") bottom right no-repeat;
-  background-size: auto 80%;
+  background: url("../img/hero.png") bottom right no-repeat;
+  background-size: cover;
   position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   #hero {
-    background: url("../img/favicon.png") right no-repeat;
-    background-size: contain;
-    background-position: center top;
+    background: url("../img/favicon.png") bottom right no-repeat;
+    background-size: auto 45%;
+    background-position: center bottom;
   }
 }
 
