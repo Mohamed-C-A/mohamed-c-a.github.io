@@ -481,7 +481,9 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: auto;
+  min-height: 60px;
+  padding-bottom: 10px;
   display: block;
   background: none;
   border-radius: 0;
@@ -1209,6 +1211,9 @@ section {
   font-size: 13px;
 }
 
+/*--------------------------------------------------------------
+# IDK
+--------------------------------------------------------------*/
 .carousel-indicators,
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
