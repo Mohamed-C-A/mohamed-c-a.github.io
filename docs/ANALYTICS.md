@@ -132,7 +132,7 @@ The analytics script is loaded from an external domain (cloud.umami.is) without 
 
 **Mitigation**: The script source is restricted via Content Security Policy (CSP) meta tag in `index.html`, limiting script execution to trusted domains only.
 
-### Content Security Policy
+### Content Security Policy (not used)
 
 A CSP meta tag is implemented in `index.html` to restrict resource loading:
 
